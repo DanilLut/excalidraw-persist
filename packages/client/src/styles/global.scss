@@ -56,17 +56,18 @@
   --theme-filter: invert(93%) hue-rotate(180deg);
 
   /* Colors */
-  --color-primary: #a8a5ff;
+  --color-primary: hsl(0, 0%, 90%) !important;
   --color-on-surface: #e3e3e8;
   --text-primary-color: var(--color-on-surface);
   --icon-fill-color: var(--color-on-surface);
   --default-bg-color: #121212;
-  --island-bg-color: #232329;
+  --island-bg-color: #202020 !important;
   --link-color: #4dabf7;
-  --color-surface-high: hsl(245, 10%, 21%);
+  --color-surface-high: hsl(0, 0%, 18%) !important;
   --color-surface-mid: hsl(240 6% 10%);
-  --color-surface-low: hsl(240, 8%, 15%);
+  --color-surface-low: hsl(0, 0%, 10%) !important;
   --color-surface-lowest: hsl(0, 0%, 7%);
+  --color-surface-primary-container: hsl(0, 0%, 18%) !important;
   --color-icon-white: var(--color-gray-90);
   --color-gray-20: #272727;
   --color-gray-60: #7a7a7a;
