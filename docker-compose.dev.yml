@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: ./packages/client/Dockerfile
     ports:
-      - '80:80'
+      - '4002:80'
     depends_on:
       - server
     restart: unless-stopped
