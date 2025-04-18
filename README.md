@@ -2,6 +2,8 @@
 
 A self-hostable app with server-side persistence and multi-boards based on Excalidraw.
 
+`docker-compose -f ./docker-compose.dev.yml up -d`
+
 `docker run -p 80:80 -p 4000:4000 ghcr.io/ozencb/excalidraw-persist:latest`
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/88510de0-a231-4a7b-83e2-e78a010296d5" />
